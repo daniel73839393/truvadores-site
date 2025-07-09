@@ -64,6 +64,36 @@
     </div>
   </section>
 
+<!-- VIP Mensal -->
+<div class="bg-white bg-opacity-10 p-6 rounded-xl text-center border border-yellow-300">
+  <h4 class="text-2xl font-bold mb-2">VIP Mensal</h4>
+  <p class="mb-4">Vantagens exclusivas por 30 dias!</p>
+  <div class="space-x-2">
+    <a href="https://picpay.me/seu_link_vip_mensal" target="_blank" class="bg-yellow-400 text-black px-4 py-2 rounded hover:bg-yellow-300">Comprar</a>
+    <button onclick="openModal('modal-vip-mensal')" class="bg-gray-700 px-4 py-2 rounded hover:bg-gray-600">Ver mais</button>
+  </div>
+</div>
+
+<!-- Ultra VIP Mensal -->
+<div class="bg-white bg-opacity-10 p-6 rounded-xl text-center border border-yellow-300">
+  <h4 class="text-2xl font-bold mb-2">Ultra VIP Mensal</h4>
+  <p class="mb-4">Recursos encantados por 30 dias!</p>
+  <div class="space-x-2">
+    <a href="https://picpay.me/seu_link_ultra_mensal" target="_blank" class="bg-yellow-400 text-black px-4 py-2 rounded hover:bg-yellow-300">Comprar</a>
+    <button onclick="openModal('modal-ultra-mensal')" class="bg-gray-700 px-4 py-2 rounded hover:bg-gray-600">Ver mais</button>
+  </div>
+</div>
+
+<!-- Master VIP Mensal -->
+<div class="bg-white bg-opacity-10 p-6 rounded-xl text-center border border-yellow-300">
+  <h4 class="text-2xl font-bold mb-2">Master VIP Mensal</h4>
+  <p class="mb-4">O pacote supremo por 30 dias!</p>
+  <div class="space-x-2">
+    <a href="https://picpay.me/seu_link_master_mensal" target="_blank" class="bg-yellow-400 text-black px-4 py-2 rounded hover:bg-yellow-300">Comprar</a>
+    <button onclick="openModal('modal-master-mensal')" class="bg-gray-700 px-4 py-2 rounded hover:bg-gray-600">Ver mais</button>
+  </div>
+</div>
+
   <!-- Outros modais aqui -->
   <div id="modal-vip-permanente" class="hidden fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50">
     <div class="bg-white text-black p-6 rounded-lg max-w-md">
@@ -108,6 +138,52 @@
       <button onclick="closeModal('modal-master-permanente')" class="mt-6 bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">Fechar</button>
     </div>
   </div>
+<!-- Modal VIP Mensal -->
+<div id="modal-vip-mensal" class="hidden fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50">
+  <div class="bg-white text-black p-6 rounded-lg max-w-md">
+    <h2 class="text-xl font-bold mb-4">Conteúdo do VIP Mensal</h2>
+    <ul class="list-disc pl-5 text-sm">
+      <li>Armadura completa de ouro</li>
+      <li>Ferramentas de ouro</li>
+      <li>1 escudo</li>
+      <li>Prefixo personalizado</li>
+      <li>Comandos especiais</li>
+    </ul>
+    <button onclick="closeModal('modal-vip-mensal')" class="mt-6 bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">Fechar</button>
+  </div>
+</div>
+
+<!-- Modal Ultra VIP Mensal -->
+<div id="modal-ultra-mensal" class="hidden fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50">
+  <div class="bg-white text-black p-6 rounded-lg max-w-md">
+    <h2 class="text-xl font-bold mb-4">Conteúdo do Ultra VIP Mensal</h2>
+    <ul class="list-disc pl-5 text-sm">
+      <li>Armadura completa de ferro</li>
+      <li>Ferramentas de ferro encantadas</li>
+      <li>1 escudo</li>
+      <li>Prefixo exclusivo</li>
+      <li>Acesso ao kit diário aprimorado</li>
+    </ul>
+    <button onclick="closeModal('modal-ultra-mensal')" class="mt-6 bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">Fechar</button>
+  </div>
+</div>
+
+<!-- Modal Master VIP Mensal -->
+<div id="modal-master-mensal" class="hidden fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50">
+  <div class="bg-white text-black p-6 rounded-lg max-w-md">
+    <h2 class="text-xl font-bold mb-4">Conteúdo do Master VIP Mensal</h2>
+    <ul class="list-disc pl-5 text-sm">
+      <li>Armadura completa de diamante</li>
+      <li>Ferramentas de diamante encantadas</li>
+      <li>1 escudo</li>
+      <li>20 diamantes de presente</li>
+      <li>14 maçãs douradas</li>
+      <li>Prefixo Master</li>
+      <li>Acesso à área VIP exclusiva</li>
+    </ul>
+    <button onclick="closeModal('modal-master-mensal')" class="mt-6 bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">Fechar</button>
+  </div>
+</div>
 
   <!-- Scripts -->
   <script>
